@@ -1,10 +1,21 @@
 {
-    "test/": {
-        "table_name": "test",
-        "partitioning_field": "timestamp"
-    },
-    "test2/": {
-        "table_name": "test2",
-        "partitioning_field": "timestamp"
+    "mapping":
+    {
+        "test":
+        {
+            "GCS_uri": "gs://bucket/test/",
+            "project_id": "project1",
+            "dataset_id": "dataset1",
+            "table_id": "test",
+            "time_partitioning_field": "timestamp"
+        },
+        "test2":
+        {
+            "GCS_uri": "gs://bucket/test2/",
+            "project_id": "project1",
+            "dataset_id": "dataset1",
+            "table_id": "test2",
+            "time_partitioning_field": "timestamp"
+        }
     }
 }
