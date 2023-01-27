@@ -3,7 +3,7 @@
     {
         "test":
         {
-            "GCS_uri": "gs://bucket/test/",
+            "test": "gs://bucket/test/",
             "project_id": "project1",
             "dataset_id": "dataset1",
             "table_id": "test",
@@ -11,7 +11,7 @@
         },
         "test2":
         {
-            "GCS_uri": "gs://bucket/test2/",
+            "test2": "gs://bucket/test2/",
             "project_id": "project1",
             "dataset_id": "dataset1",
             "table_id": "test2",
