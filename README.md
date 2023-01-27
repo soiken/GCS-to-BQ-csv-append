@@ -12,4 +12,4 @@ Upon successful completion of the load job, a message is printed to indicate tha
 
 ## V2
 
-This Google Cloud Function allows for the appending of data from a file in a Google Cloud Storage bucket to a specified table in Google BigQuery. The function utilizes the Google Cloud client library for both BigQuery and Storage to accomplish this. The function uses a mapping file in JSON format, which maps the parent directory of the file to the relevant information for the BigQuery table, including the project ID, dataset ID, and table ID. Additionally, the function also supports time partitioning by a specified field in the mapping file. Upon a successful append, the function will print a message to indicate the data has been loaded to the specified table.
+V2 uses a mapping file in JSON format, which maps the parent directory of the file to the relevant information for the BigQuery table, including the project ID, dataset ID, and table ID. Additionally, the function also supports time partitioning by a specified field in the mapping file.
