@@ -1,0 +1,10 @@
+{
+    "test/": {
+        "table_name": "test",
+        "partitioning_field": "timestamp"
+    },
+    "test2/": {
+        "table_name": "test2",
+        "partitioning_field": "timestamp"
+    }
+}
