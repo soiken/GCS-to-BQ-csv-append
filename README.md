@@ -13,3 +13,7 @@ Upon successful completion of the load job, a message is printed to indicate tha
 ## V2
 
 V2 uses a mapping file in JSON format, which maps the parent directory of the file to the relevant information for the BigQuery table, including the project ID, dataset ID, and table ID. Additionally, the function also supports time partitioning by a specified field in the mapping file.
+
+## V3
+
+In this update, the capability to determine the write disposition (append or overwrite) has been added to the script. The write disposition can now be specified in the mapping.json file by including a "write_disposition" key with a value of either "WRITE_APPEND" or "WRITE_TRUNCATE". If the "write_disposition" key is not present, the default behavior is to append the data to the table. This update adds more flexibility and control to the data loading process.
