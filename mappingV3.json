@@ -1,0 +1,23 @@
+{
+    "mapping":
+    {
+        "test":
+        {
+            "test": "gs://test/test/",
+            "project_id": "test",
+            "dataset_id": "test",
+            "table_id": "test",
+            "time_partitioning_field": "timestamp",
+            "write_disposition": "WRITE_APPEND"
+        },
+        "test2":
+        {
+            "test2": "gs://test2/test2/",
+            "project_id": "test2",
+            "dataset_id": "test2",
+            "table_id": "test2",
+            "time_partitioning_field": "timestamp",
+            "write_disposition": "WRITE_TRUNCATE"
+        }
+    }
+}
